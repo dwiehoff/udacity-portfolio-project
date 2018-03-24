@@ -16,11 +16,34 @@ body {
 	color: var(--shade_text);
 }
 
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
 header {
-	width: 100%;
+	/* width: 100%; */
+	height: 150px;
 	border-bottom: 4px solid var(--shade_border);
+	display: flex;
+	margin-bottom: 25px;
 }
 
 .logo {
-	width: 50px;
+	width: 75px;
+	
+}
+.title {
+	width: 250px;
+	flex-grow: 8;
+	align-self: center;
+	text-align: right;
+}
+
+#hero {
+	height: 400px;
+	overflow: hidden;
+}
+#hero img {
+	width: 100%;
 }
