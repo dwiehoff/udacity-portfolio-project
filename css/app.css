@@ -74,5 +74,14 @@ article {
 	justify-content: space-between;
 }
 article img {
-	width: 90%; /* required for flexing to work */
+	width: 100%; /* required for flexing to work */ /* TODO: not all same height, spacing in between */
 }
+article > h4 {
+	text-transform: uppercase;
+	text-align: center;
+}
+article > a {
+	text-align: center; /* TODO: not working */
+	text-decoration: none;
+}
+
