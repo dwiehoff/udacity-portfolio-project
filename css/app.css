@@ -81,8 +81,10 @@ article > h4 {
 	text-align: center;
 	font-size: 2em;
 }
-article > a {
-	text-align: center; /* TODO: not working */
+article > p {
+	text-align: center;
+}
+article > p > a {
 	text-decoration: none;
 }
 
