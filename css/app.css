@@ -63,3 +63,16 @@ header {
 #featured h3 {
 	font-size: 2em;
 }
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	/* flex-direction: row; */
+}
+article {
+	flex: 30%; /* 1 or 30% */
+	justify-content: space-between;
+}
+article img {
+	width: 90%; /* required for flexing to work */
+}
