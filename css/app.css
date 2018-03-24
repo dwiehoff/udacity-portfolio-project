@@ -50,7 +50,16 @@ header {
 #hero {
 	height: 400px;
 	overflow: hidden;
+	margin-bottom: 35px;
 }
 #hero img {
 	width: 100%;
+}
+
+#featured {
+
+}
+
+#featured h3 {
+	font-size: 2em;
 }
