@@ -79,6 +79,7 @@ article img {
 article > h4 {
 	text-transform: uppercase;
 	text-align: center;
+	font-size: 2em;
 }
 article > a {
 	text-align: center; /* TODO: not working */
