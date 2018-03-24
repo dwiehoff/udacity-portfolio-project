@@ -38,6 +38,13 @@ header {
 	flex-grow: 8;
 	align-self: center;
 	text-align: right;
+	text-transform: uppercase;
+}
+.title h1 {
+	font-size: 3em;
+}
+.title h2 {
+	font-size: 1.25em;
 }
 
 #hero {
