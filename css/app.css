@@ -73,6 +73,10 @@ article {
 	flex: 30%; /* 1 or 30% */
 	justify-content: space-between; /* does nothing at this point */
 }
+.img_container { /* workaround: same height */
+	height: 150px;
+	overflow: hidden;
+}
 article img {
 	width: 100%; /* required for flexing to work */
 	/* TODO: not all same height, spacing in between */
