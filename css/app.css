@@ -79,7 +79,8 @@ article {
 }
 article img {
 	width: 100%; /* required for flexing to work */
-	/* TODO: not all same height, spacing in between */
+	/* TODO: not all same height */
+	padding: 5px; /* spacing in between */
 }
 article > h4 {
 	text-transform: uppercase;
