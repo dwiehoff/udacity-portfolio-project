@@ -75,12 +75,14 @@ article {
 }
 .img_container { /* workaround: same height */
 	height: 150px;
-	overflow: hidden;
+	/* overflow: hidden; */
+	width: 100%;
+	object-fit: cover;
 }
 article img {
 	width: 100%; /* required for flexing to work */
 	/* TODO: not all same height */
-	padding: 5px; /* spacing in between */
+	padding: 10px; /* spacing in between */
 }
 article > h4 {
 	text-transform: uppercase;
@@ -94,6 +96,14 @@ article > p > a {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 850px) {
-	/* TODO */
-} /* TODO: 670, 561 */
+@media only screen and (max-width: 666px) {
+	#hero {
+		height: 300px;
+	}
+	#hero img {
+		height: 300px;
+	}
+}
+/* @media only screen and (max-width: 850px) {
+	 TODO
+} */  /* TODO: 670, 561 */
