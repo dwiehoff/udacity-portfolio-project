@@ -104,6 +104,11 @@ article > p > a {
 		height: 300px;
 	}
 }
+@media only screen and (max-width: 545px) {
+	.title h1 {
+		font-size: 2em;
+	}
+}
 /* @media only screen and (max-width: 850px) {
 	 TODO
 } */  /* TODO: 670, 561 */
