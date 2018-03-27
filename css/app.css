@@ -82,10 +82,12 @@ article {
 article img {
 	width: 100%; /* required for flexing to work */
 	/* TODO: not all same height */
-	padding: 10px; /* spacing in between */
 	/* */
 	height: 70%;
 	object-fit: cover;
+}
+article:nth-of-type(2) {
+	margin: 0 20px;  /* spacing in between */
 }
 article > h4 {
 	text-transform: uppercase;
@@ -99,6 +101,24 @@ article > p > a {
 	text-decoration: none;
 }
 
+@media only screen and (max-width: 868px) {
+	article:nth-of-type(2) {
+		margin-right: 0;
+	}
+	article:nth-of-type(3) {
+		margin: 0 5px;
+	}
+}
+
+@media only screen and (max-width: 845px) {
+	article:nth-of-type(2) {
+		margin: 0;
+	}
+	article:nth-of-type(1) {
+		margin-right: 10px;
+	}
+}
+
 @media only screen and (max-width: 666px) {
 	#hero {
 		height: 300px;
@@ -106,10 +126,26 @@ article > p > a {
 	#hero img {
 		height: 300px;
 	}
+	article:nth-of-type(2) {
+		margin: 0;
+	}
+	article:nth-of-type(1) {
+		margin-right: 20px;
+	}
 }
+
+@media only screen and (max-width: 583px) {
+	article:nth-of-type(1) {
+		margin-right: 20px; /* TODO: remove; */
+	}
+}
+
 @media only screen and (max-width: 545px) {
 	.title h1 {
 		font-size: 2em;
+	}
+	article:nth-of-type(2) {
+		margin: 0;
 	}
 }
 /* @media only screen and (max-width: 850px) {
